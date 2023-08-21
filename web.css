@@ -23,6 +23,7 @@ body{
 .link{
     display:flex;
     list-style:none;
+    margin-right:45%;
 }
 li {
     margin: 0 1.5em;

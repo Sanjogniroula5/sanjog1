@@ -90,7 +90,8 @@ p{
 }
 .social-links{
     position: fixed;
-    left: 0em;
+    top:50%
+    right: 0em;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;

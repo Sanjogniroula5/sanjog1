@@ -90,7 +90,7 @@ p{
 }
 .social-links{
     position: fixed;
-    top:50%
+    top:50%;
     right: 0em;
     transform: translateY(-50%);
     display: flex;

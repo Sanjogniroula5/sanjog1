@@ -24,9 +24,6 @@ body{
     display:flex;
     list-style:none;
 }
-    
-
-
 li {
     margin: 0 1.5em;
     color:aqua;
@@ -120,13 +117,6 @@ p1{
     width:90px;
     height:auto;
 }
-/* Default styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
   /* Common styles for all screen sizes */
 .header {
     background-color: #333;

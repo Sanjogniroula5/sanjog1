@@ -1,0 +1,161 @@
+nav{
+    background-color: beige;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1em 2em; /* Adjusted padding */
+    box-shadow: 10px 1px 12px black;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-position:center;
+    background-image: url('a6e7468371ba3b3c3dc212b3ef54cd9c.jpg');
+    padding:auto;
+    display: 0.8rem;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-color:antiquewhite; /* Adjusting the opacity to darken the background */
+}
+.link{
+    display:flex;
+    list-style:none;
+}
+    
+
+
+li {
+    margin: 0 1.5em;
+    color:aqua;
+}
+
+a {
+    text-decoration: skyblue;
+    color:darkslategrey ;
+    font-weight: 500;
+    transition: color 0.7s ease;
+}
+
+a:hover {
+    color: red;
+}
+.logo img{
+    width:auto;
+    height: 10vh;
+    margin-right: 1em;
+    max-width: 200%;
+    border-radius: 40px;
+}
+main {
+    padding: 0em;
+}
+
+section {
+    margin-bottom: 0em;
+}
+
+/* Styling for the about section */
+.about-section {
+    display:flex;
+    align-items: left;
+}
+.profile-picture {
+    position:static;
+}
+.profile-picture img {
+    width:auto;
+    height: 10vh;
+    margin-right: 1em;
+    max-width: 1000%;
+    border-radius: 20px;
+
+}
+.about-content {
+    flex: 12%;
+}
+
+.about-content-inner {
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: large;
+}
+.st{
+    color:black;
+}
+p{
+    color:rgb(255, 221, 0);
+    font-weight: 500;
+}
+.social-links{
+    position: fixed;
+    top:50%;
+    right: 0em;
+    transform: translateY(-50%);
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    z-index:auto;
+}
+.social-links img{
+    width: 30px;
+    height: auto;
+}
+.ma{
+    color:red;
+    text-shadow:black;
+    font-weight: 600;
+    font-size: larger;
+    font-style: italic;
+
+}
+p1{
+    top:60%;
+    font-size: larger;
+}
+.es img{
+    width:90px;
+    height:auto;
+}
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Common styles for all screen sizes */
+  .header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0.5em;
+    }
+  }
+  
+  /* Media query for even smaller screens */
+  @media (max-width: 480px) {
+    .header {
+      padding: 0.5em 0;
+    }
+    .container {
+      padding: 0.2em;
+    }
+  }
+  
